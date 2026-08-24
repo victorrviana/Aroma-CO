@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aroma & Co. | Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Aroma & Co.</div>
+        
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-icon" aria-label="Abrir Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <nav class="nav-links">
+            <a href="index.html">Início</a>
+            <a href="cardapio.html">Cardápio</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="contato.html" class="active">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Reservas & Contato</h1>
+        <form>
+            <div class="form-group">
+                <label for="nome">Nome Completo</label>
+                <input type="text" id="nome" name="nome" required placeholder="Digite seu nome">
+            </div>
+
+            <div class="form-group">
+                <label for="email">E-mail de Contato</label>
+                <input type="email" id="email" name="email" required placeholder="seu@email.com">
+            </div>
+
+            <div class="form-group">
+                <label for="assunto">Assunto</label>
+                <input type="text" id="assunto" name="assunto" placeholder="Reserva, evento ou dúvida">
+            </div>
+
+            <div class="form-group">
+                <label for="mensagem">Mensagem ou Detalhes da Reserva</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required placeholder="Informe a data, horário e número de pessoas..."></textarea>
+            </div>
+
+            <button type="submit">Enviar Solicitação</button>
+        </form>
+    </main>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>Aroma & Co.</h4>
+                <p>Um espaço de desaceleração e apreciação de cafés especiais de alta qualidade.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Horários</h4>
+                <p>
+                    <time datetime="Mo-Fr 07:00-20:00">Segunda a Sexta: 07h às 20h</time><br>
+                    <time datetime="Sa-Su 08:00-18:00">Sábado e Domingo: 08h às 18h</time>
+                </p>
+            </div>
+            <div class="footer-col">
+                <h4>Links Rápidos</h4>
+                <ul>
+                    <li><a href="cardapio.html">Nosso Cardápio</a></li>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
+                    <li><a href="contato.html">Reservas</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Newsletter</h4>
+                <p>Receba convites para nossas sessões de cupping e degustação.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Seu e-mail" required>
+                    <button type="submit">OK</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Aroma & Co. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aroma & Co. | Início</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Aroma & Co.</div>
+        
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-icon" aria-label="Abrir Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <nav class="nav-links">
+            <a href="index.html" class="active">Início</a>
+            <a href="cardapio.html">Cardápio</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Ritual, café e silêncio.</h1>
+            <p>Grãos selecionados de origem única, torrados artesanalmente.</p>
+            <a href="cardapio.html" class="btn">Explorar Menu</a>
+        </section>
+
+        <section class="featured-section" aria-labelledby="featured-title">
+            <h2 id="featured-title">Destaques da Torra</h2>
+            
+            <div class="featured-grid">
+                <article class="featured-card">
+                    <span class="tag">Edição Limitada</span>
+                    <h3>Bourbon Vermelho</h3>
+                    <p>Notas sensoriais de frutas amarelas e rapadura. Cultivado na Serra da Mantiqueira.</p>
+                </article>
+
+                <article class="featured-card">
+                    <span class="tag">Mais Pedido</span>
+                    <h3>Catuaí 99 Extração V60</h3>
+                    <p>Corpo aveludado com acidez cítrica moderada e finalização de chocolate amargo.</p>
+                </article>
+
+                <article class="featured-card">
+                    <span class="tag">Sazonal</span>
+                    <h3>Cold Brew Cítrico</h3>
+                    <p>Infusão a frio de 18 horas finalizada com óleos essenciais de limão siciliano.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>Aroma & Co.</h4>
+                <p>Um espaço de desaceleração e apreciação de cafés especiais de alta qualidade.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Horários</h4>
+                <p>
+                    <time datetime="Mo-Fr 07:00-20:00">Segunda a Sexta: 07h às 20h</time><br>
+                    <time datetime="Sa-Su 08:00-18:00">Sábado e Domingo: 08h às 18h</time>
+                </p>
+            </div>
+            <div class="footer-col">
+                <h4>Links Rápidos</h4>
+                <ul>
+                    <li><a href="cardapio.html">Nosso Cardápio</a></li>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
+                    <li><a href="contato.html">Reservas</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Newsletter</h4>
+                <p>Receba convites para nossas sessões de cupping e degustação.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Seu e-mail" required>
+                    <button type="submit">OK</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Aroma & Co. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
